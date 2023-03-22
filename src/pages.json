@@ -3,7 +3,15 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "三生域",
+				"navigationBarTextStyle": "black"	
+			}
+		},
+		{
+			"path": "pages/own/index",
+			"style": {
+				"navigationBarTitleText": "三生域1",
+				"navigationBarTextStyle": "black"	
 			}
 		}
 	],
@@ -12,5 +20,17 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+     {
+			"pagePath": "pages/index/index",
+			"text": "三生域"
+		 },
+		 {
+			"pagePath": "pages/own/index",
+			"text": "我的"
+		 }
+    ]
 	}
 }
