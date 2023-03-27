@@ -8,11 +8,12 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import Api from '../../api/index'
+import Api from '@/api/index'
 const title = ref('三生域首页')
 
 onMounted (async () => {
   const res = await Api.test()
+  console.log(res)
 })
 </script>
 

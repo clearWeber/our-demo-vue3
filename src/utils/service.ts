@@ -9,7 +9,7 @@ interface IbaseOptions {
 
 class Service {
   baseOptions: IbaseOptions = {
-    url: 'https://www.example.com/request/',
+    url: 'https://dengcaocao.github.io/',
     data: {},
     header: {},
     method: 'GET',

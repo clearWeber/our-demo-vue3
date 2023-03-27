@@ -22,15 +22,23 @@
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
 		"list": [
-     {
-			"pagePath": "pages/index/index",
-			"text": "三生域"
-		 },
-		 {
-			"pagePath": "pages/own/index",
-			"text": "我的"
-		 }
-    ]
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_selected.png",
+				"text": "三生域"
+			},
+			{
+				"pagePath": "pages/own/index",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile_selected.png",
+				"text": "我的"
+			}
+		]
 	}
 }
