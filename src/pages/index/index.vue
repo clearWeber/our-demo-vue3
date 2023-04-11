@@ -15,6 +15,7 @@ onMounted (async () => {
   const res = await Api.test()
   console.log(res)
 })
+
 </script>
 
 <style>
