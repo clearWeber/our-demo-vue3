@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "eslint \"src/**/*.{js,jsx,vue}\" --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",
@@ -66,7 +67,10 @@
     "@typescript-eslint/parser": "^5.58.0",
     "@vue/tsconfig": "^0.1.3",
     "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.10.0",
+    "prettier": "^2.8.7",
     "typescript": "^4.9.4",
     "vite": "4.0.4",
     "vue-eslint-parser": "^9.1.1",
